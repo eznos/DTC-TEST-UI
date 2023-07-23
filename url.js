@@ -1,3 +1,3 @@
-const apiUrl = "http://localhost:3000";
+const apiUrl = "https://dtc-test-api.onrender.com";
 
 export { apiUrl };
