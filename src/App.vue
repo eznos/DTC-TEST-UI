@@ -34,8 +34,8 @@ export default {
 
 <style lang="scss">
 #app {
-  @import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@700&display=swap");
-  font-family: "Sarabun", sans-serif;
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;800&display=swap');
+  font-family: 'Kanit', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
