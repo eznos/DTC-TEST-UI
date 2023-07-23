@@ -4,12 +4,8 @@ import Home from '@/components/Home'
 import Product from '@/components/Product'
 import Cart from '@/components/Cart'
 import Layout from '@/components/Layout'
-import Login from '../views/login/login.vue'
-import Register from '../views/register/Register.vue'
 import Profile from '../views/edituser/Edituser.vue'
-import Store from '../views/store/Store.vue'
-import Forgetpassword from '../views/forgetpassword/Forgetpass.vue'
-import ForgetpasswordRecoverycode from '../views/forgetpassword/Forgetpass_recovery.vue'
+
 
 Vue.use(Router)
 
@@ -34,39 +30,14 @@ export default new Router({
           component: Cart,
           name: 'Cart'
         },
-        {
+        { 
           path: '/profile',
           component: Profile,
           name: 'Profile'
         }
       ]
     },
-    // login
-    {
-      path: '/login',
-      component: Login,
-      name: 'Login'
-    },
-    {
-      path: '/register',
-      component: Register,
-      name: 'Register'
-    },
-    {
-      path: '/forgetpass',
-      component: Forgetpassword,
-      name: 'ForgetPassword'
-    },
-    {
-      path: '/recoverycode',
-      component: ForgetpasswordRecoverycode,
-      name: 'ForgetpasswordRecoverycode'
-    },
-    {
-      path: '/store',
-      component: Store,
-      name: 'Store'
-    }
+
   ],
   mode: 'history'
 },

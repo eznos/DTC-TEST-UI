@@ -136,7 +136,7 @@ export default {
       filter: {},
       sortDesc: false,
       sortBy: "name",
-      itemsPerPage: "",
+      itemsPerPage: 0,
       items: [],
     };
   },
@@ -158,7 +158,6 @@ export default {
         .then((response) => {
           this.items = response.data.result;
           this.itemsPerPage = this.items.length;
-          console.log(this.items.length);
         })
         .catch(function (error) {
           console.log(error);
